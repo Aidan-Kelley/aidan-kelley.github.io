@@ -84,6 +84,12 @@ main {
   animation: blinker 0.5s linear infinite;
 }
 
+img {
+  border: 5px solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
 @keyframes blinker {
   50% {
     opacity: 0;
@@ -106,4 +112,15 @@ main {
 .entry-description {
   font-size: medium;
   margin-left: 16px;
+}
+
+span {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 5px;
 }
